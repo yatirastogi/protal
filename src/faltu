@@ -1,0 +1,876 @@
+<Navbar bg="dark" variant="dark">
+  <Nav className="container-fluid">
+    <Nav.Item>
+      <Navbar.Brand as={Link} to="/">Demo App</Navbar.Brand>
+    </Nav.Item>
+    <Nav.Item>
+      <Nav.Link as={Link} to="/user-list">User List</Nav.Link>
+    </Nav.Item>
+    <Nav.Item>
+      <Nav.Link onClick={handleClickUserLogOut}>Log Out</Nav.Link>
+    </Nav.Item>
+    <Nav.Item className="ml-auto">
+      <Nav.Link>Hi fname lname!</Nav.Link>
+    </Nav.Item>
+  </Nav>
+</Navbar>
+
+
+
+
+
+
+
+
+	<Navbar bg="dark" variant="pills">
+  <Nav className="container-fluid">
+    <Nav.Item>
+      <Navbar.Brand>PROTAL</Navbar.Brand>
+    </Nav.Item>
+    
+    <Nav.Item >
+      <Nav.Link>ABOUT US</Nav.Link>
+    </Nav.Item>
+	<Nav.Item >
+      <Nav.Link>CONTACT US</Nav.Link>
+    </Nav.Item>
+	<Nav.Item>
+    <Nav.Link eventKey="link-2">Option 3</Nav.Link>
+  </Nav.Item>
+  <Nav.Item>
+    <Nav.Link eventKey="link-3">Option 4</Nav.Link>
+  </Nav.Item>
+  
+  </Nav>
+</Navbar>
+	<div className="form-group">
+										
+										<div className="input-group">
+										
+											<input className="text" className="form-control" placeholder="Name"></input>
+										</div>
+									</div>
+									<div className="form-group">
+										<div className="input-group">
+										
+											<input type="email" className="form-control" placeholder="Email Address"></input>
+										</div>
+									</div>
+									<div className="form-group">
+										<div className="input-group">
+										
+											<input type="password" className="form-control" placeholder="Password"></input>
+										</div>
+									</div>
+									<div className="form-group">
+										<div className="input-group">
+											
+											<input type="password" class="form-control" placeholder="Confirm Password"></input>
+										</div>
+									</div>
+									  <button type="submit" className="btn btn-success btn-block">Submit</button>
+								</form>
+
+
+
+
+
+
+
+
+
+
+
+                body {
+    background:#3AAFA9;
+}
+
+
+
+#login {
+	-webkit-perspective: 1000px;
+	-moz-perspective: 1000px;
+	perspective: 1000px;
+	margin-top:50px;
+	margin-left:16%;
+    width:65%;
+    
+ 
+}
+
+
+@media only screen and (max-width: 500px) {
+    #login {
+        -webkit-perspective: 1000px;
+        -moz-perspective: 1000px;
+        perspective: 1000px;
+        margin-top:10%;
+        margin-left:0%;
+        width:100%;
+    }
+    }        
+.login {
+	font-family: 'Josefin Sans', sans-serif;
+	-webkit-transition: .3s;
+	-moz-transition: .3s;
+	transition: .3s;
+	-webkit-transform: rotateY(40deg);
+	-moz-transform: rotateY(40deg);
+	transform: rotateY(40deg);    
+}
+.login:hover {
+	-webkit-transform: rotate(0);
+	-moz-transform: rotate(0);
+	transform: rotate(0);
+   
+}
+#login:hover{
+    box-shadow: 20px 10px 4px rgba(0, 0, 0, 0.25);
+}
+.login article {
+	
+}
+.login .form-group {
+	margin-bottom:17px;
+}
+
+.login .btn {
+	text-transform:uppercase;
+	letter-spacing:3px;
+}
+
+
+#inner-wrapper, #contact-us .contact-form, #contact-us .our-address {
+    color: #1d1d1d;
+    font-size: 19px;
+    line-height: 1.7em;
+    font-weight: 300;
+    padding: 40px 10px;
+    background: #fff;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    margin-bottom: 100px;
+}
+.input-group-addon {
+    border-radius: 0;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    color: #fff;
+    background: #f3aa0c;
+    border: #f3aa0c;
+        border-right-color: rgb(243, 170, 12);
+        border-right-style: none;
+        border-right-width: medium;
+}
+
+.navigation{
+    background-color: #2B7A78;
+    color:white;
+    font-size:x-large;
+    width: 100%;
+    padding-top: 1rem;
+  
+}
+
+.nava{
+
+    
+    color: white;
+    margin-left: 40px;
+    font-size: medium;
+
+
+
+}
+
+.navbar-light .navbar-brand {
+    color: white;
+}
+.imga{
+    height:80%;
+    width: 300px;
+    margin-left: 0px;
+    padding:10px;
+
+    
+    
+}
+.nav{
+    width:100%;
+}
+.navbar{
+    background-color: #2B7A78;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    margin-top: 0%;
+    height: 20px;
+}
+
+a{
+    color: white;
+    text-decoration:none;
+}
+.linke:hover{
+    background-color: tomato;
+  
+}
+.linke{
+    
+    width:100px;
+    height: 3.8rem;
+    padding-left: 5%;
+    padding-right: 3%;
+    margin-right: 1px;
+    margin-left: 1px;
+}
+
+.ip{
+
+
+
+    background: #DEF2F1;
+box-shadow: 7px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+}
+
+.alignment{
+    float:left;margin-right:20px;
+}
+
+.alignment1{
+    float:left;
+}
+
+.lab{
+    color:black;
+}
+.textbox{
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 20;
+    padding:10px;
+    
+    background: #DEF2F1;
+    box-shadow: 7px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    border-color: #DEF2F1;
+}
+
+
+.textbox1{
+    width: 100%;
+    font-size: small;
+  
+    
+}
+
+.heading{
+   
+    margin-bottom: 40px;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 47px;
+    
+    color: #000000;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function Mainpage()
+{
+   
+    return(<div>
+		
+		<Navbar style={{marginBottom:"1000px"}}fixed="top">
+  <Navbar.Brand className="navigation">PROTAL</Navbar.Brand>
+  <Navbar.Toggle />
+  <Navbar.Collapse className="justify-content-end">
+    <Nav.Item className="nava linke">
+     <a href="#login">About Us </a>
+    </Nav.Item>
+	<Nav.Item className="nava linke">
+     <a href="#login">Contact Us </a>
+    </Nav.Item>
+  </Navbar.Collapse>
+</Navbar>
+<br>
+</br><br></br>
+
+
+<br></br><br></br>
+<div id="welcome">
+
+<h1>WELCOME TO PROTAL</h1>
+
+
+</div>
+<div id="login">
+
+<section id="inner-wrapper"className="login">
+<article>
+<Container>
+  <Row>
+	<Col lg={5}><br></br><br></br><img className="imga d-none d-lg-block" src={im}></img></Col>
+	<Col lg={7}>
+	  <form>
+
+
+					<Container>
+					<center><h1 className="heading">CONTACT US</h1></center>
+						<Row>
+							<Col md={6} lg={6}>First Name*<input type="text" className="textbox"placeholder="First Name" required></input></Col>
+							<Col md={6} lg={6}>Last Name*<input type="text" className="textbox" placeholder="Last Name" required></input></Col>
+						</Row>
+						<Row>
+							<Col>Email*<input type="email" className="textbox"placeholder="Email" required></input></Col>
+						   
+						</Row>
+						<Row>
+							<Col>Phone Number*<input type="text" className="textbox"placeholder="Phone Number" required></input></Col>
+						   
+						</Row>
+						<Row>
+							<Col>Message(if any)<textarea className="textbox"></textarea></Col>
+						   
+						</Row>
+						<Row>
+						<Col style={{padding:"0px",width:"5%"}}lg={1} md={1}><input type="checkbox" placeholder="name"></input></Col>
+						<Col style={{padding:"0px"}}lg={11} md={11}><p className="textbox1">I agree to receive email communication from Phone</p></Col>
+						</Row>
+						<Row>
+							<Col><button style={{borderRadius:50,borderColor:"black",borderWidth:"0.2rem",width:"100%",fontWeight:"bold",fontSize:"large"}} className="btn btn-lg btn-warning" value="Submit">Submit</button></Col>
+						   
+						</Row>
+
+
+
+					</Container>
+				</form>
+		
+	
+		</Col>
+</Row>
+</Container>	</article>
+		</section></div>
+
+
+
+
+
+
+			<div id="login">
+
+				<section id="inner-wrapper"className="login">
+				<article>
+				<Container>
+ 				 <Row>
+					<Col lg={5}><br></br><br></br><img className="imga d-none d-lg-block" src={im}></img></Col>
+					<Col lg={7}>
+					  <form>
+
+
+									<Container>
+									<center><h1 className="heading">CONTACT US</h1></center>
+										<Row>
+											<Col md={6} lg={6}>First Name*<input type="text" className="textbox"placeholder="First Name" required></input></Col>
+										    <Col md={6} lg={6}>Last Name*<input type="text" className="textbox" placeholder="Last Name" required></input></Col>
+										</Row>
+										<Row>
+											<Col>Email*<input type="email" className="textbox"placeholder="Email" required></input></Col>
+										   
+										</Row>
+										<Row>
+											<Col>Phone Number*<input type="text" className="textbox"placeholder="Phone Number" required></input></Col>
+										   
+										</Row>
+										<Row>
+											<Col>Message(if any)<textarea className="textbox"></textarea></Col>
+										   
+										</Row>
+										<Row>
+										<Col style={{padding:"0px",width:"5%"}}lg={1} md={1}><input type="checkbox" placeholder="name"></input></Col>
+										<Col style={{padding:"0px"}}lg={11} md={11}><p className="textbox1">I agree to receive email communication from Phone</p></Col>
+										</Row>
+										<Row>
+											<Col><button style={{borderRadius:50,borderColor:"black",borderWidth:"0.2rem",width:"100%",fontWeight:"bold",fontSize:"large"}} className="btn btn-lg btn-warning" value="Submit">Submit</button></Col>
+										   
+										</Row>
+
+
+
+									</Container>
+								</form>
+						
+					
+						</Col>
+  </Row>
+</Container>	</article>
+						</section></div></div>
+    )}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    new final
+    
+import React, {Component} from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './main.css';
+import { Navbar, Nav, Container } from 'react-bootstrap';
+import {Grid, Row, Col} from 'react-bootstrap';
+import im from "./Contact us-amico.png";
+import wc from "./Social ideas-cuate.png"
+import im2 from "./Learning-bro.png";
+import AOS from "aos";
+import {BsChevronDoubleUp} from "react-icons/bs";
+import "aos/dist/aos.css";
+AOS.init();
+
+
+
+
+function Mainpage()
+{
+	AOS.init();
+    return(<div>
+		
+		<Navbar fixed="top">
+  <Navbar.Brand className="navigation"><h1 className="pro">PROTAL</h1></Navbar.Brand>
+  <Navbar.Toggle />
+  <Navbar.Collapse>
+    <Nav.Item className="nava linke">
+     <a href="#login">About Us</a>
+    </Nav.Item>
+	<Nav.Item className="nava linke">
+     <a href="#contact">Contact Us </a>
+    </Nav.Item>
+  </Navbar.Collapse>
+</Navbar>
+
+<div id="welcome" className="welcomehead3">
+<section id="welc">
+	<Container>
+		<Row>
+		<Col className="welcomehead" lg={4}><br></br>
+		<h1 className="welcomehead">Welcome to PROTAL</h1><h2 className="welcomehead2"> <p style={{textAlign:"left"}}>We aim at building a talent network, connecting people with various talents to the right recruiters and opportunities. Our objective is to help the raw talents gain exposure and experience with the right professional help.</p></h2></Col>
+		<Col className="welcomehead1" lg={8}><br></br><br></br><img  data-aos="zoom-in" className="imgwc d-none d-lg-block" src={wc}></img></Col>
+
+		</Row>
+
+	</Container>
+
+    
+
+</section>
+</div>
+
+
+
+
+<div id="login" data-aos="zoom-in">
+				<div>
+
+				<section id="abt" className="login inner-wrapper">
+				<br></br>
+				<br></br>
+				<br></br>
+				<article>
+				<Container>
+ 				 <Row><center><h1 className="heading">ABOUT US</h1></center>
+					<Col lg={5}><br></br><br></br><img className="imga d-none d-lg-block" src={im2}></img></Col>
+					<Col className="about"lg={7}><div><p>Protal is a startup, with Pre-incubation under VITTBI.
+						Protal is a Talent Producing Social Media platform for the easy showcasing of talents. We aim at building a talent network, connecting people with various talents to the right recruiters and opportunities.
+						PROTAL is here to make a difference, helping the raw talents gain exposure and experience with the right professional help.
+						Services like Mentoring, Hiring, and Collaborating in the common fields of singing, dancing, designing, photography and various other domains are our key motives
+						</p></div>					
+						</Col>
+						</Row>
+						</Container>
+						</article>
+						</section></div></div>
+
+
+
+<div  data-aos="zoom-in" id="login">
+
+<section id="contact" className="inner-wrapper login">
+<article style={{marginTop:"40px"}}>
+<Container>
+  <Row>
+	<Col lg={4}><br></br><br></br><img className="imga d-none d-lg-block" src={im}></img></Col>
+	<Col lg={8}>
+	  <form>
+
+
+					<Container>
+					<center><h1 className="heading">CONTACT US</h1></center>
+						<Row>
+							<Col md={6} lg={6}>First Name*<input type="text" className="textbox"placeholder="First Name" required></input></Col>
+							<Col md={6} lg={6}>Last Name*<input type="text" className="textbox" placeholder="Last Name" required></input></Col>
+						</Row>
+						<Row>
+							<Col>Email*<input type="email" className="textbox"placeholder="Email" required></input></Col>
+						   
+						</Row>
+						<Row>
+							<Col>Phone Number*<input type="text" className="textbox"placeholder="Phone Number" required></input></Col>
+						   
+						</Row>
+						<Row>
+							<Col>Message(if any)<textarea className="textbox"></textarea></Col>
+						   
+						</Row>
+						<Row>
+						<Col style={{padding:"0px",width:"5%"}}lg={1} md={1}><input type="checkbox" placeholder="name"></input></Col>
+						<Col style={{padding:"0px"}}lg={11} md={11}><p className="textbox1">I agree to receive email communication from Phone</p></Col>
+						</Row>
+						<Row>
+							<Col><button style={{borderRadius:50,borderColor:"black",borderWidth:"0.2rem",width:"100%",fontWeight:"bold",fontSize:"large"}} className="btn btn-lg btn-warning" value="Submit">Submit</button></Col>
+						   
+						</Row>
+
+
+
+					</Container>
+				</form>
+		
+	
+				</Col>
+				</Row>
+				</Container>	
+				</article>
+				</section></div>
+
+
+
+
+<div>
+<footer id="colophon" class="site-footer" role="contentinfo">
+  <div class="social-wrapper">
+    <ul>
+      <li>
+        <a href="https://twitter.com/login" target="_blank">
+          <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png" alt="Twitter Logo" class="twitter-icon"></img></a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/" target="_blank">
+          <img src="https://www.mchenryvillage.com/images/instagram-icon.png" alt="Instagram Logo" class="instagram-icon"></img></a>
+      </li>
+   
+      <li>
+        <a href="https://www.facebook.com/" target="_blank">
+          <img src="http://www.iconarchive.com/download/i54037/danleech/simple/facebook.ico" alt="Facebook Logo" class="facebook-icon"></img></a>
+      </li>
+      <li>
+        <a href="https://www.youtube.com/" target="_blank">
+          <img src="https://lh3.googleusercontent.com/j_RwVcM9d47aBDW5DS1VkdxUYCkDUCB6wZglv4x-9SmsxO0VaFs7Csh-FmKRCWz9r_Ef=w170" alt="Youtube Logo" class="youtube-icon"></img></a>
+      </li>
+     
+    </ul>
+  </div>
+
+  <nav class="footer-nav" role="navigation">
+ 
+  </nav>
+</footer>
+<br></br>
+<br></br>
+
+</div>
+<div><center><h1>BACK TO TOP <a style={{color:"black"}} href="#welcome"> <BsChevronDoubleUp/></a></h1></center><br></br><br></br></div>
+
+</div>
+    )}
+
+
+
+export default Mainpage
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+finall
+
+import React, {Component} from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './main.css';
+import { Navbar, Nav, Container } from 'react-bootstrap';
+import {Grid, Row, Col} from 'react-bootstrap';
+import im from "./Contact us-amico.png";
+import wc from "./Social ideas-cuate.png"
+import im2 from "./Learning-bro.png";
+import AOS from "aos";
+
+import "aos/dist/aos.css";
+AOS.init();
+
+
+class Mainpage extends React.Component {
+    constructor(){
+        super();
+
+        this.state = {
+           about: true,
+		   cont:true
+
+        }
+    }
+
+
+    changeColor(){
+		this.setState({about: false,cont:true})
+		
+		console.log(this.state.about)
+		 }
+		 changeColor1(){
+			this.setState({cont: false,about:true})
+			
+			console.log(this.state.cont)
+			 }
+ 
+	 render(){
+		 let btn_class = this.state.about ? "linke1" : "linke2";
+		 let btn_class1 = this.state.cont ? "linke1" : "linke2";
+		 AOS.init();
+    return(<Container fluid>
+		<Row>	
+			<Col>	
+		<Navbar fixed="top">
+  <Navbar.Brand className="navigation"><h1 className="pro">PROTAL</h1></Navbar.Brand>
+  <Navbar.Toggle />
+  <Navbar.Collapse>
+    <Nav.Item id="linke"  className={btn_class}>
+     <a id="linke" href="#login" onClick={this.changeColor.bind(this)}>About Us</a>
+    </Nav.Item>
+	<Nav.Item id="linke"className={btn_class1}>
+     <a id="linke" href="#contact"onClick={this.changeColor1.bind(this)}>Contact Us </a>
+    </Nav.Item>
+  </Navbar.Collapse>
+</Navbar>
+</Col>
+</Row>
+<Row>
+	<Col>
+<div id="welcome" className="welcomehead3">
+<section id="welc">
+	<Container fluid>
+		<Row>
+		<Col className="welcomehead4" lg={4}><br></br>
+		<h1 className="welcomehead">Welcome to PROTAL</h1><h2 className="welcomehead2"> <p style={{textAlign:"left"}}>We aim at building a talent network, connecting people with various talents to the right recruiters and opportunities. Our objective is to help the raw talents gain exposure and experience with the right professional help.</p></h2></Col>
+		<Col className="welcomehead1" lg={8}><br></br><br></br><img  data-aos="zoom-in" className="imgwc d-none d-lg-block" src={wc}></img></Col>
+
+		</Row>
+
+	</Container>
+
+    
+
+</section>
+</div>
+
+</Col>
+</Row>
+<Row>
+	<Col>
+<div id="login" data-aos="zoom-in">
+				<div>
+
+				<section id="abt" className="login inner-wrapper">
+				<br></br>
+				<br></br>
+				<br></br>
+				<article>
+				<Container>
+ 				 <Row><center><h1 className="heading">ABOUT US</h1></center>
+					<Col lg={5}><br></br><br></br><img className="imga d-none d-lg-block" src={im2}></img></Col>
+					<Col className="about"lg={7}><div><p>Protal is a startup, with Pre-incubation under VITTBI.
+						Protal is a Talent Producing Social Media platform for the easy showcasing of talents. We aim at building a talent network, connecting people with various talents to the right recruiters and opportunities.
+						PROTAL is here to make a difference, helping the raw talents gain exposure and experience with the right professional help.
+						Services like Mentoring, Hiring, and Collaborating in the common fields of singing, dancing, designing, photography and various other domains are our key motives
+						</p></div>					
+						</Col>
+						</Row>
+						</Container>
+						</article>
+						</section></div></div>
+
+						</Col>
+</Row>
+<Row>
+	<Col>
+
+<div  data-aos="zoom-in" id="login">
+
+<section id="contact" className="inner-wrapper login">
+<article style={{marginTop:"40px"}}>
+<Container fluid>
+  <Row>
+	<Col lg={4}><br></br><br></br><img className="imga d-none d-lg-block" src={im}></img></Col>
+	<Col lg={8}>
+	  <form>
+
+
+					<Container>
+					<center><h1 className="heading">CONTACT US</h1></center>
+						<Row>
+							<Col md={6} lg={6}>First Name*<input type="text" className="textbox"placeholder="First Name" required></input></Col>
+							<Col md={6} lg={6}>Last Name*<input type="text" className="textbox" placeholder="Last Name" required></input></Col>
+						</Row>
+						<Row>
+							<Col>Email*<input type="email" className="textbox"placeholder="Email" required></input></Col>
+						   
+						</Row>
+						<Row>
+							<Col>Phone Number*<input type="text" className="textbox"placeholder="Phone Number" required></input></Col>
+						   
+						</Row>
+						<Row>
+							<Col>Message(if any)<textarea className="textbox"></textarea></Col>
+						   
+						</Row>
+						<Row>
+						<Col style={{padding:"0px",width:"5%"}}lg={1} md={1}><input type="checkbox" placeholder="name"></input></Col>
+						<Col style={{padding:"0px"}}lg={11} md={11}><p className="textbox1">I agree to receive email communication from Phone</p></Col>
+						</Row>
+						<Row>
+							<Col><button style={{backgroundColor:"tomato",borderRadius:50,borderColor:"black",color:"white",borderWidth:"0.2rem",width:"100%",fontWeight:"bold",fontSize:"large"}} className="btn btn-lg" value="Submit">Submit</button></Col>
+						   
+						</Row>
+
+
+
+					</Container>
+				</form>
+		
+	
+				</Col>
+				</Row>
+				</Container>	
+				</article>
+				</section></div>
+
+				</Col>
+</Row>
+<Row>
+	<Col className="container-fluid"className="social-wrapper">
+
+
+
+<footer id="colophon" class="site-footer" role="contentinfo">
+ 
+    <ul>
+      <li>
+        <a href="https://twitter.com/login" target="_blank">
+          <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png" alt="Twitter Logo" class="twitter-icon"></img></a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/" target="_blank">
+          <img src="https://www.mchenryvillage.com/images/instagram-icon.png" alt="Instagram Logo" class="instagram-icon"></img></a>
+      </li>
+   
+      <li>
+        <a href="https://www.facebook.com/" target="_blank">
+          <img src="http://www.iconarchive.com/download/i54037/danleech/simple/facebook.ico" alt="Facebook Logo" class="facebook-icon"></img></a>
+      </li>
+      <li>
+        <a href="https://www.youtube.com/" target="_blank">
+          <img src="https://lh3.googleusercontent.com/j_RwVcM9d47aBDW5DS1VkdxUYCkDUCB6wZglv4x-9SmsxO0VaFs7Csh-FmKRCWz9r_Ef=w170" alt="Youtube Logo" class="youtube-icon"></img></a>
+      </li>
+     
+    </ul>
+
+  <nav class="footer-nav" role="navigation">
+ 
+  </nav>
+</footer>
+<br></br>
+<br></br>
+
+<div><center><h1>BACK TO TOP <a style={{color:"black"}} href="#welcome">^</a></h1></center><br></br><br></br></div>
+
+</Col>
+</Row>
+</Container> 
+ )}
+	}
+
+
+export default Mainpage
+
+
+
+first page
+
+<Row>
+<Col>
+<div id="welcome" className="welcomehead3">
+<section id="welc">
+	<Container fluid>
+		<Row>
+		<Col className="welcomehead4" lg={4} md={8} sm={10}><br></br>
+		<h1 className="welcomehead">Welcome to PROTAL</h1><h2 className="welcomehead2"> <p style={{textAlign:"left"}}>We aim at building a talent network, connecting people with various talents to the right recruiters and opportunities. Our objective is to help the raw talents gain exposure and experience with the right professional help.</p></h2></Col>
+		<Col className="welcomehead1" lg={8}><br></br><br></br><img  data-aos="zoom-in" className="imgwc d-none d-lg-block" src={wc}></img></Col>
+
+		</Row>
+
+	</Container>
+
+    
+
+</section>
+</div>
+
+</Col>
+</Row>
+
+
